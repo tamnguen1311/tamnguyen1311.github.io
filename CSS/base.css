@@ -1,0 +1,10 @@
+/* CSS Document */
+#menu th{width: 50%; font-size: 40px}
+#menu {width: 100%}
+#bangchon{border-bottom: 5px solid black;border-top: 5px solid black;word-spacing: 50px; padding-bottom: 5px; padding-top: 5px}
+#bangchon a{color: black}
+#product th{width: 50%}
+#product{width: 100%}
+#thongtin {text-align: center; background-color: black; color: white;width: 100%;}
+#bangthongtin th{width: 60%;padding-top: 20px}
+#bangthongtin {width: 100%}
