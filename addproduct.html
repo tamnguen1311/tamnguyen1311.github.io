@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script>
+		function newproduct()
+		{var ProductName = f1.txtName.value
+		 var ProductID = f1.txtID.value
+		 var Color = f1.txtColor.value
+		 var Price = f1.txtPrice.value
+		document.write(ProductName+"</br>");
+		document.write(ProductID+"</br>");
+		 document.write(Color+"</br>");
+		 document.write(Price+"</br>");
+		 }
+	
+	</script>
+</head>
+
+<body>
+	<h3 align="center">Add Product</h3>
+	<form id="f1">
+	<table align="center" border="f1">
+	    <tr>
+	         <th>Product Name:</th>
+			 <td><input type="text" name="txtName"/></td>
+	    </tr>
+	    <tr>
+             <th>Product ID:</th>
+			 <td><input type="text" name="txtID"/></td>
+ 	    </tr>
+		<tr>
+		     <th>Color:</th>
+			 <td><input type="text" name="txtColor"</td>
+		</tr>
+		<tr>
+		     <th>Price:</th>
+			 <td><input type="text" name="txtPrice"</td>
+		</tr>
+	    
+		<tr>
+			<th colspan="2">
+				<input type="submit"   value="Add" onClick="newproduct()"/>
+		        <input type="reset" value="Reset"/>
+			</th>
+		</tr>
+		</table>
+		</form>
+</body>
+</html>
