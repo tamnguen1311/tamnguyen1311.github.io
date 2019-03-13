@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="CSS/base.css">
+	<link rel="stylesheet" href="file:///D|/assweb/CSS/base.css">
+	<script>
+		
+		
+		function check()
+		{
+			if (f1.txtName.value=="converse")
+				{
+					if(f1.txtPass.value=="12345")
+						{
+							alert('Log in success');
+							document.location="Home.html";
+						}
+					else{alert('Invalid password');}
+				}else{alert('Invalid user name')}
+			
+			
+		}
+	</script>
+</head>
+
+<body>
+	<table id="menu">
+		<tr>
+		    <th>Converse Shoes</th>
+			<th align="right"><img src="hinh/logo 1.png"/></th>
+		</tr>
+	</table>
+	<div align="center" id="bangchon">
+			<a href="file:///D|/assweb/Home.html">Home</a>
+			<a href="file:///D|/assweb/product.html">Product</a>
+			<a href="file:///D|/assweb/loginn.html">Login</a>
+		    <a href="file:///D|/assweb/feedback.html">Feedback</a>
+		    </div>
+	<div style="background-image: url(hinh/cover.jpg); background-repeat: no-repeat; background-size: cover ;height: 420px; width: 1333px; margin-top: -35px">
+	<h3 align="center" style="color: #FF0105; padding-top: 130px; font-size: 40px; font-weight: 900">Login</h3>
+		<form id="f1" style="margin-top: -30px">
+		<table align="center" border="f1">
+	    <tr>
+	         <th style="color: #fff">User Name:</th>
+			 <td><input type="text" name="txtName"/></td>
+	    </tr>
+	    <tr>
+             <th style="color: #fff">Password:</th>
+			 <td><input type="password" name="txtPass"/></td>
+ 	    </tr>
+	    
+		<tr>
+			<th colspan="2">
+				<input type="button"   value="Submit" onClick="check()"/>
+		        <input type="reset" value="Reset"/>
+			</th>
+		</tr>
+		</table>
+		</form>
+	</br>
+	</div>
+	<footer  id="thongtin">
+	<table align="center">
+          <tr>
+			   <td>Address:</td><td>153 Nguyen Trai</td>
+		  </tr>
+		  <tr>
+			   <td>Hotline:</td><td>0723831279</td>
+		  </tr>
+		   <tr>
+			   <td>Uptime:</td><td>9.am - 10.pm</td>
+		  </tr>   
+    </table>
+</footer>
+	</body> 
+</html>
