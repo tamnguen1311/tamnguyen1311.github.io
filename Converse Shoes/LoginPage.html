@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script>
+		
+		
+		function check()
+		{
+			if (f1.txtName.value=="banana")
+				{
+					if(f1.txtPass.value=="123")
+						{
+							alert('Log in success');
+							document.location="Index.html";
+						}
+					else{alert('Invalid password');}
+				}else{alert('Invalid user name')}
+			
+		}
+	</script>
+</head>
+
+<body>
+	<h3 align="center">Login</h3>
+	<form id="f1">
+	<table align="center" border="f1">
+	    <tr>
+	         <th>User Name:</th>
+			 <td><input type="text" name="txtName"/></td>
+	    </tr>
+	    <tr>
+             <th>Password:</th>
+			 <td><input type="password" name="txtPass"/></td>
+ 	    </tr>
+	    
+		<tr>
+			<th colspan="2">
+				<input type="button" value="Submit" onClick="check()"/>
+		        <input type="reset" value="Reset"/>
+			</th>
+		</tr>
+		</table>
+		</form>
+</body>
+</html>
